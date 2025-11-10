@@ -67,6 +67,29 @@ The envirorment can be activated.
 /.venv/scripts/activate
 ```
 
+### 4. Envirorment variables
+
+Create .env file and popolate it with:
+
+1. Groq API key
+
+## Environment Variables
+
+Create a `.env` file in the project root with the following content:
+
+```env
+GROQ_API_KEY=your_groq_api_key_here
+TMDB_API_KEY=your_tmdb_api_key_here
+# Add other keys as needed
+HF_API_KEY=your_hf_api_key_here
+```
+
+- `GROQ_API_KEY`: Your Groq API key for conversational AI features.
+- `TMDB_API_KEY`: Your TMDb API key for movie metadata and posters.
+- `HF_API_KEY`: Your Hugging Face API key for embedding and query search in the vector database.
+
+Keep your API keys secure and do not share your `.env` file publicly.
+
 ---
 
 ## Usage
