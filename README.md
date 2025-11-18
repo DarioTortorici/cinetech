@@ -55,14 +55,6 @@ uv sync
 The dependancies will be already installed in the virtual envirorment.
 The envirorment can be activated.
 
-#### Windows
-
-```powershell
-/.venv/scripts/activate.ps1
-```
-
-#### Linux
-
 ```powershell
 /.venv/scripts/activate
 ```
@@ -80,7 +72,6 @@ Create a `.env` file in the project root with the following content:
 ```env
 GROQ_API_KEY=your_groq_api_key_here
 TMDB_API_KEY=your_tmdb_api_key_here
-# Add other keys as needed
 HF_API_KEY=your_hf_api_key_here
 ```
 
